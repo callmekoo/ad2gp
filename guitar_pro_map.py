@@ -282,21 +282,23 @@ __mapping = {
     ad2.tom.high.rimshot: gp.tom.high,
 
     # Rides
-    ad2.ride.tip: gp.ride.edge,
-    ad2.ride1.tip: gp.ride.edge,
+    ad2.ride.tip: gp.ride.middle,
+    ad2.ride1.tip: gp.ride.middle,
     ad2.ride1.bell: gp.ride.bell,
-    ad2.ride1.shaft: gp.ride.middle,
+    ad2.ride1.shaft: gp.ride.edge,
     ad2.ride1.choke: gp.ride.choke,
-    ad2.ride2.tip: gp.ride.edge,
+    ad2.ride2.tip: gp.ride.middle,
     ad2.ride2.bell: gp.ride.bell,
-    ad2.ride2.shaft: gp.ride.middle,
+    ad2.ride2.shaft: gp.ride.edge,
     ad2.ride2.choke: gp.ride.choke,
 
     # Cymbals
     # I didn't find any in GP mapping, so
-    ad2.cymbal.hit: gp.ride.middle,
-    ad2.cymbal2.hit: gp.ride.middle,
-    ad2.cymbal2.choke: gp.ride.choke,
+    ad2.cymbal.hit: gp.crash.high,
+    ad2.cymbal1.hit: gp.crash.high,
+    ad2.cymbal1.choke: gp.crash.high,
+    ad2.cymbal2.hit: gp.crash.medium,
+    ad2.cymbal2.choke: gp.crash.medium,
     ad2.cymbal3.hit: gp.ride.middle,
     ad2.cymbal3.choke: gp.ride.choke,
     ad2.cymbal4.hit: gp.ride.middle,
