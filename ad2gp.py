@@ -1,4 +1,6 @@
 import argparse
+from pathlib import Path
+
 from mido import MidiFile, MidiTrack
 
 from guitar_pro_map import mapping
@@ -26,7 +28,10 @@ def main():
     args = parser.parse_args()
     midi_file = open_file(args.file)
     midi_file = convert(midi_file)
-    midi_file.save('converted.mid')
+
+    input_path = Path(args.file)
+    output_path = input_path.with_name(f"{input_path.stem}_converted.midi")
+    midi_file.save(output_path.as_posix())
 
 
 if __name__ == '__main__':
